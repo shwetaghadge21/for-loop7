@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+    int i,speed;
+    printf("enter car speed");
+    scanf("%d",&speed);
+    for(i=1;i<=4;i++)
+    {
+        printf(":level %d:car speed=%dkm/h\n",i,speed);
+        if (speed<80)
+        {
+            speed=speed*2;
+        }
+    }
+}

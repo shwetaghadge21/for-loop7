@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+{
+    int floor,i,speed;
+    printf("entear your floor number ");
+    scanf("%d",&floor);
+    speed=2;
+    for(i=1;i<=floor;i++)
+    {
+        printf("floor%d;speed=%d m/s\n" ,i,speed);
+        if(speed<16)
+        {
+            speed=speed*2;
+        }
+    }
+}

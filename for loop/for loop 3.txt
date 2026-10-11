@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int i,fuel;
+    printf("enter fuel level");
+    scanf("%d",&fuel);
+    for(i=1;i<=3;i++)
+    {
+        printf("fuel level%d\n",fuel);
+        fuel=fuel-10;
+    }
+    
+    
+}
